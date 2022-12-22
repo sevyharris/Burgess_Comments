@@ -1,0 +1,7 @@
+Some notes about this mechanism: 
+
+- has pressure dependence and FFCM1(-) seed
+
+- 145 species, 1481 reactions 
+
+- Execution time (DD:HH:MM:SS): 05:14:04:30
