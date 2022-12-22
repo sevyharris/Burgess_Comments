@@ -1,0 +1,44 @@
+- obtained from https://onlinelibrary.wiley.com/doi/full/10.1002/kin.20923
+
+- The .cti file that David had been used had edited the original reaction: 
+
+1)
+!*********************************************
+!*** HF, F, F2: Combination, decomposition ***
+!*********************************************
+HF      + M    = H       + F        3.12E13   0.00   99320.  !<A HREF=#81BAU/DUX>81BAU/DUX</A> (EXPT)
+
+2)
+!*** CF3O ***
+!************
+CF3O    + M    = CF2:O + F          9.03E26  -3.42   21700.  !<A HREF=#96BUR/ZAC>96BUR/ZAC</A> (RRKM)
+
+3) 
+!*** CHF:O & CF2:O: Decompositions ***
+!*************************************
+CHF:O   + M    = CO      + HF       2.48E25  -3.00   43000.  !<A HREF=#96BUR/ZAC>96BUR/ZAC</A> <A HREF=#85SAI/KUR>85SAI/KUR</A> (FIT)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ to 
+
+
+# Reaction 840
+reaction('HF <=> H + F', [3.120000e+13, 0.0, 99320.0])
+# <A HREF=#81BAU/DUX>81BAU/DUX</A> (EXPT)
+
+
+# Reaction 912
+reaction('CF3O <=> CF2:O + F', [9.030000e+26, -3.42, 21700.0])
+# <A HREF=#96BUR/ZAC>96BUR/ZAC</A> (RRKM)
+
+
+# Reaction 958
+reaction('CHF:O <=> CO + HF', [2.480000e+25, -3.0, 43000.0])
+# <A HREF=#96BUR/ZAC>96BUR/ZAC</A> <A HREF=#85SAI/KUR>85SAI/KUR</A> (FIT)
+
