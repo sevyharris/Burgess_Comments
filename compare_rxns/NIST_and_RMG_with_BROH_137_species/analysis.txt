@@ -1,0 +1,43 @@
+RMG
+
+    137 species
+    1349 total reactions
+    1028 unique reactions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NIST
+
+    188 species 
+    1597 total reactions (there are 6 NIST reactions that satisfy .is_isomorphic() with two different RMG reactions! keep this in mind)
+    1276 unique reactions
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common
+
+    321 common reactions
+        - 
+    157 of these have different kinetics
+    

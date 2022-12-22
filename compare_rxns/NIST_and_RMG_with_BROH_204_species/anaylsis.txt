@@ -1,0 +1,176 @@
+RMG
+
+    204 species
+    146 unique species
+    1777 total reactions
+    1453 unique reactions: 
+    
+    
+    RMG model has the following number of unique reactions that matching to an RMG halogen chemistry reaction:
+
+
+        _________________________________________________
+
+
+        Cl_Abstraction: 0
+
+
+        _________________________________________________
+
+
+        F_Abstraction: 9
+
+
+        CH3F(40) + C=[C]Br(129) <=> CH3(20) + C=C(F)Br(125)
+        H(9) + FCBr(2959) <=> HF(39) + [CH2]Br(969)
+        FCBr(2959) + C=[C]Br(129) <=> [CH2]Br(969) + C=C(F)Br(125)
+        FCBr(2959) + CH3(20) <=> [CH2]Br(969) + CH3F(40)
+        CHF2(83) + CH3F(40) <=> CHF3(43) + CH3(20)
+        CHF2(83) + FCBr(2959) <=> CHF3(43) + [CH2]Br(969)
+        CHF2(83) + C=C(F)Br(125) <=> CHF3(43) + C=[C]Br(129)
+        [O]O[C](F)F(848) + CH3F(40) <=> [O]OC(F)(F)F(820) + CH3(20)
+        [O]O[C](F)F(848) + FCBr(2959) <=> [O]OC(F)(F)F(820) + [CH2]Br(969)
+        _________________________________________________
+
+
+        Br_Abstraction: 10
+
+
+        [O]OBr(145) + H(9) <=> O2(4) + HBR(93)
+        [O]OBr(145) + C=[C]C(F)(F)F(127) <=> O2(4) + 2-BTP(1)
+        BROH(8) + C=[C]C(F)(F)F(127) <=> OH(2) + 2-BTP(1)
+        [O]OBr(145) + OH(2) <=> O2(4) + BROH(8)
+        CBr(425) + C=[C]C(F)(F)F(127) <=> CH3(20) + 2-BTP(1)
+        [O]OBr(145) + CH3(20) <=> O2(4) + CBr(425)
+        CH2(T)(19) + CBr(425) <=> [CH2]Br(969) + CH3(20)
+        [O]OBr(145) + CH2(T)(19) <=> O2(4) + [CH2]Br(969)
+        BROH(8) + CH2(T)(19) <=> OH(2) + [CH2]Br(969)
+        CH2(T)(19) + 2-BTP(1) <=> [CH2]Br(969) + C=[C]C(F)(F)F(127)
+        _________________________________________________
+
+
+        XY_Addition_MultipleBond: 1
+
+
+        HBR(93) + FC(F)(F)CC(=CBr)C(F)(F)F(11233) <=> FC(F)(F)CC(Br)(CBr)C(F)(F)F(3687)
+        _________________________________________________
+
+
+        1,2_XY_interchange: 0
+
+
+        _________________________________________________
+
+
+        halocarbene_recombination: 0
+
+
+        _________________________________________________
+
+
+        halocarbene_recombination_double: 0
+
+
+        _________________________________________________
+
+
+        halocarbene_CO_dimerization: 0
+
+
+        _________________________________________________
+
+
+        XY_elimination_hydroxyl: 0
+
+
+        _________________________________________________
+
+
+        intra_halogen_migration: 0
+
+
+
+    
+NIST
+    
+    188 species
+    130 unique species
+    1597 total reactions 
+    1274 unique reactions 
+    
+
+Common 
+
+    321 common reactions with breakdown of: 
+    
+    
+    
+    NIST model has the following number of common reactions that matching to an RMG halogen chemistry reaction:
+
+
+        _________________________________________________
+
+
+        Cl_Abstraction: 0
+
+
+        _________________________________________________
+
+
+        F_Abstraction: 2
+
+
+        H(9) + CH3F(40) <=> HF(39) + CH3(20) 	
+        H(9) + CHF3(43) <=> HF(39) + CHF2(83) 	
+        _________________________________________________
+
+
+        Br_Abstraction: 5
+
+
+        H(9) + CBr(425) <=> HBR(93) + CH3(20) 	
+        BROH(8) + CH3(20) <=> OH(2) + CBr(425) 	
+        H(9) + BROH(8) <=> HBR(93) + OH(2) 	
+        H(9) + [CH2]Br(969) <=> HBR(93) + CH2(T)(19) 	
+        H(9) + 2-BTP(1) <=> HBR(93) + C=[C]C(F)(F)F(127) 	
+        _________________________________________________
+
+
+        XY_Addition_MultipleBond: 0
+
+
+        _________________________________________________
+
+
+        1,2_XY_interchange: 0
+
+
+        _________________________________________________
+
+
+        halocarbene_recombination: 1
+
+
+        HO2(14) + CF2(44) <=> OH(2) + CF2O(50) 	
+        _________________________________________________
+
+
+        halocarbene_recombination_double: 0
+
+
+        _________________________________________________
+
+
+        halocarbene_CO_dimerization: 0
+
+
+        _________________________________________________
+
+
+        XY_elimination_hydroxyl: 0
+
+
+        _________________________________________________
+
+
+        intra_halogen_migration: 0
